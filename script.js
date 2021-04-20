@@ -19,7 +19,7 @@ $(document).ready(function () {
     })
     //typed animation
     var typed=new Typed(".typing",{
-        strings: ["Interviewee"],
+        strings: ["Truong Phuoc Nghia","a Front-end Developer"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
@@ -31,11 +31,4 @@ $(document).ready(function () {
         loop: true
     })
     // toggle menu
-    $('.menu-btn').click(function () {
-        $('.navbar .menu').toggleClass('active')
-        $('.menu-btn i').toggleClass('active')
-    })
-
-
-
 })
